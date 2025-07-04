@@ -15,10 +15,12 @@ export class Form {
   message: string = '';
 
   login() {
-    if (this.email === 'admin@example.com' && this.password === 'admin123') {
-      this.message = 'Login successful!';
+    if (this.email !='' && this.password != '') {
+      console.log(this.email + "/n" + this.password);
+      
     } else {
-      this.message = 'Invalid email or password.';
+      console.log("Enter credentials");
+      
     }
   }
 }
