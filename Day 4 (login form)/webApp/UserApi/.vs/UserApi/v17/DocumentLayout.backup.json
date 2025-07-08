@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\webApp\\UserApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|d:\\webapp\\userapi\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|solutionrelative:data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|d:\\webapp\\userapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|d:\\webapp\\userapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,12 +15,8 @@
       "RelativeMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|d:\\webapp\\userapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|d:\\webapp\\userapi\\migrations\\20250707043553_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|solutionrelative:migrations\\20250707043553_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|d:\\webapp\\userapi\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D627857-4192-4F0D-AAA4-237E98963273}|UserApi.csproj|solutionrelative:jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250707043553_InitialCreate.cs",
-              "DocumentMoniker": "D:\\webApp\\UserApi\\Migrations\\20250707043553_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250707043553_InitialCreate.cs",
-              "ToolTip": "D:\\webApp\\UserApi\\Migrations\\20250707043553_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20250707043553_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "D:\\webApp\\UserApi\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "JwtTokenGenerator.cs",
+              "ToolTip": "D:\\webApp\\UserApi\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "JwtTokenGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T04:35:53.775Z"
+              "WhenOpened": "2025-07-08T06:05:57.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\webApp\\UserApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\webApp\\UserApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-08T06:03:52.711Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,9 +61,10 @@
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
               "ToolTip": "D:\\webApp\\UserApi\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T04:34:19.856Z"
+              "WhenOpened": "2025-07-07T04:34:19.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,34 +74,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\webApp\\UserApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAiwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T04:33:24.606Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserDbContext.cs",
-              "DocumentMoniker": "D:\\webApp\\UserApi\\Data\\UserDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\UserDbContext.cs",
-              "ToolTip": "D:\\webApp\\UserApi\\Data\\UserDbContext.cs",
-              "RelativeToolTip": "Data\\UserDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T04:32:23.646Z",
+              "WhenOpened": "2025-07-07T04:33:24.606Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\webApp\\UserApi\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\webApp\\UserApi\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T04:30:44.288Z"
             }
           ]
         }

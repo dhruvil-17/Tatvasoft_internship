@@ -135,3 +135,11 @@ D:\webApp\UserApi\obj\Debug\net8.0\refint\UserApi.dll
 D:\webApp\UserApi\obj\Debug\net8.0\UserApi.pdb
 D:\webApp\UserApi\obj\Debug\net8.0\UserApi.genruntimeconfig.cache
 D:\webApp\UserApi\obj\Debug\net8.0\ref\UserApi.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\webApp\UserApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\webApp\UserApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

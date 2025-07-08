@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.1",
   "info": {
-    "title": "UserApi",
-    "version": "1.0"
+    "title": "User API",
+    "version": "v1"
   },
   "paths": {
     "/api/Users/register": {
@@ -60,6 +60,18 @@
             }
           }
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Users/secure-data": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -150,6 +162,19 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Enter 'Bearer' followed by a space and your JWT token",
+        "name": "Authorization",
+        "in": "header"
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
 }
