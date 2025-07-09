@@ -1,0 +1,48 @@
+<h2>User Management (CRUD)</h2>
+
+<form (ngSubmit)="saveUser()" #userForm="ngForm">
+  <input
+    type="email"
+    [(ngModel)]="user.email"
+    name="email"
+    placeholder="Email"
+    required
+  />
+  <input
+    type="password"
+    [(ngModel)]="user.password"
+    name="password"
+    placeholder="Password"
+    required
+  />
+  <button type="submit" [disabled]="userForm.invalid">
+    {{ isEdit ? 'Update User' : 'Add User' }}
+  </button>
+  <button type="button" *ngIf="isEdit" (click)="cancelEdit()">Cancel</button>
+</form>
+
+<hr />
+
+<h3>All Users</h3>
+
+<table border="1" width="100%">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Email</th>
+      <th>Password</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let u of users">
+      <td>{{ u.id }}</td>
+      <td>{{ u.email }}</td>
+      <td>{{ u.password }}</td>
+      <td>
+        <button (click)="editUser(u)">Edit</button>
+        <button (click)="deleteUser(u.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
