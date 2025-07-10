@@ -74,27 +74,32 @@ export class RegisterComponent implements OnInit, OnDestroy {
     return this.registerForm.get("confirmPassword") as FormControl
   }
   onSubmit() {
-    this.formValid = true
-    if (this.registerForm.valid) {
-      const register = this.registerForm.value
-      register.userType = "user"
-      
-      const registerSubscribe = this._service.registerUser(register).subscribe((data: any) => {
-        if (data.result == 1) {
-          //this.toastr.success(data.data);
-          this._toast.success({ detail: "SUCCESS", summary: data.data, duration: APP_CONFIG.toastDuration })
-          setTimeout(() => {
-            this._router.navigate(["admin"])
-          }, 1000)
-        } else {
-          //this.toastr.error(data.message);
-          this._toast.error({ detail: "ERROR", summary: data.message, duration: APP_CONFIG.toastDuration })
-        }
-      })
-      this.formValid = false
-      this.unsubscribe.push(registerSubscribe)
-    }
+  console.log('Form Submitted'); // <- Add this
+  this.formValid = true;
+
+  if (this.registerForm.valid) {
+    const register = this.registerForm.value;
+    register.userType = 'user';
+    console.log('Submitting to API:', register); // <- Add this
+
+    const registerSubscribe = this._service.registerUser(register).subscribe((data: any) => {
+      console.log('API Response:', data); // <- Add this
+
+      if (data.result == 1) {
+        this._toast.success({ detail: "SUCCESS", summary: data.data, duration: APP_CONFIG.toastDuration });
+        setTimeout(() => this._router.navigate(["admin"]), 1000);
+      } else {
+        this._toast.error({ detail: "ERROR", summary: data.message, duration: APP_CONFIG.toastDuration });
+      }
+    });
+
+    this.formValid = false;
+    this.unsubscribe.push(registerSubscribe);
+  } else {
+    console.warn('Form Invalid', this.registerForm.errors); // <- Add this
   }
+}
+
   ngOnDestroy() {
     this.unsubscribe.forEach((sb) => sb.unsubscribe())
   }
