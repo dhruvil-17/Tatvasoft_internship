@@ -958,11 +958,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP ZBOOK\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Services\\Mission.Services.csproj",
+      "projectUniqueName": "C:\\Users\\HP ZBOOK\\OneDrive\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Services\\Mission.Services.csproj",
       "projectName": "Mission.Services",
-      "projectPath": "C:\\Users\\HP ZBOOK\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Services\\Mission.Services.csproj",
+      "projectPath": "C:\\Users\\HP ZBOOK\\OneDrive\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Services\\Mission.Services.csproj",
       "packagesPath": "C:\\Users\\HP ZBOOK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP ZBOOK\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Services\\obj\\",
+      "outputPath": "C:\\Users\\HP ZBOOK\\OneDrive\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -983,8 +983,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\HP ZBOOK\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Repositories\\Mission.Repositories.csproj": {
-              "projectPath": "C:\\Users\\HP ZBOOK\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Repositories\\Mission.Repositories.csproj"
+            "C:\\Users\\HP ZBOOK\\OneDrive\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Repositories\\Mission.Repositories.csproj": {
+              "projectPath": "C:\\Users\\HP ZBOOK\\OneDrive\\Desktop\\Tatvasoft\\Day 8 (mission application)\\Mission\\Mission.Repositories\\Mission.Repositories.csproj"
             }
           }
         }
